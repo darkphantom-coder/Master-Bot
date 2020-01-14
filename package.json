@@ -1,29 +1,32 @@
 {
-  "name": "master-bot",
-  "version": "1.0.0",
-  "description": "a discord music bot with guild , gifs and misc commands",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "pretest": "eslint --ignore-path .gitignore .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Nir Gal",
-  "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
-    "discord.js": "github:discordjs/discord.js#master",
-    "discord.js-commando": "github:discordjs/Commando",
-    "ffmpeg-static": "^2.5.0",
-    "iso-639-1": "^2.1.0",
-    "node-opus": "^0.3.2",
-    "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^0.29.5"
+    "express": "^4.17.1",
+    "discord-irc": "^2.8.0",
+    "discord": "^0.8.2",
+    "dotenv": "^8.2.0",
+    "discord-rpc": "^3.1.0",
+    "ascii-table": "^0.0.9"
   },
-  "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
-    "nodemon": "^1.19.1",
-    "prettier": "^1.18.2"
-  }
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
